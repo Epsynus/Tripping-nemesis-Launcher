@@ -1,0 +1,9 @@
+c:\users\epsynus\documents\visual studio 2012\Projects\Tripping-Nemesis Launcher\Tripping-Nemesis Launcher\bin\Debug\Tripping-Nemesis Launcher.exe.config
+c:\users\epsynus\documents\visual studio 2012\Projects\Tripping-Nemesis Launcher\Tripping-Nemesis Launcher\bin\Debug\Tripping-Nemesis Launcher.exe
+c:\users\epsynus\documents\visual studio 2012\Projects\Tripping-Nemesis Launcher\Tripping-Nemesis Launcher\bin\Debug\Tripping-Nemesis Launcher.pdb
+c:\users\epsynus\documents\visual studio 2012\Projects\Tripping-Nemesis Launcher\Tripping-Nemesis Launcher\obj\Debug\Tripping-Nemesis Launcher.csprojResolveAssemblyReference.cache
+c:\users\epsynus\documents\visual studio 2012\Projects\Tripping-Nemesis Launcher\Tripping-Nemesis Launcher\obj\Debug\Tripping_Nemesis_Launcher.LauncherForm.resources
+c:\users\epsynus\documents\visual studio 2012\Projects\Tripping-Nemesis Launcher\Tripping-Nemesis Launcher\obj\Debug\Tripping_Nemesis_Launcher.Properties.Resources.resources
+c:\users\epsynus\documents\visual studio 2012\Projects\Tripping-Nemesis Launcher\Tripping-Nemesis Launcher\obj\Debug\Tripping-Nemesis Launcher.csproj.GenerateResource.Cache
+c:\users\epsynus\documents\visual studio 2012\Projects\Tripping-Nemesis Launcher\Tripping-Nemesis Launcher\obj\Debug\Tripping-Nemesis Launcher.exe
+c:\users\epsynus\documents\visual studio 2012\Projects\Tripping-Nemesis Launcher\Tripping-Nemesis Launcher\obj\Debug\Tripping-Nemesis Launcher.pdb
