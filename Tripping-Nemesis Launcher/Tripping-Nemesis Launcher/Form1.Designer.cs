@@ -204,6 +204,7 @@
             this.SetMapServerPriority.TabIndex = 16;
             this.SetMapServerPriority.Text = "Priority";
             this.SetMapServerPriority.UseVisualStyleBackColor = true;
+            this.SetMapServerPriority.Click += new System.EventHandler(this.SetMapServerPriority_Click);
             // 
             // StartMapServerExeButton
             // 
@@ -214,6 +215,7 @@
             this.StartMapServerExeButton.TabIndex = 14;
             this.StartMapServerExeButton.Text = "Start";
             this.StartMapServerExeButton.UseVisualStyleBackColor = true;
+            this.StartMapServerExeButton.Click += new System.EventHandler(this.StartMapServerExeButton_Click);
             // 
             // selectMapServerExeButton
             // 
@@ -256,6 +258,7 @@
             this.SetCharServerPriority.TabIndex = 12;
             this.SetCharServerPriority.Text = "Priority";
             this.SetCharServerPriority.UseVisualStyleBackColor = true;
+            this.SetCharServerPriority.Click += new System.EventHandler(this.SetCharServerPriority_Click);
             // 
             // StartCharServerExeButton
             // 
@@ -266,6 +269,7 @@
             this.StartCharServerExeButton.TabIndex = 10;
             this.StartCharServerExeButton.Text = "Start";
             this.StartCharServerExeButton.UseVisualStyleBackColor = true;
+            this.StartCharServerExeButton.Click += new System.EventHandler(this.StartCharServerExeButton_Click);
             // 
             // selectCharServerExeButton
             // 
@@ -308,6 +312,7 @@
             this.SetLoginServerPriority.TabIndex = 8;
             this.SetLoginServerPriority.Text = "Priority";
             this.SetLoginServerPriority.UseVisualStyleBackColor = true;
+            this.SetLoginServerPriority.Click += new System.EventHandler(this.SetLoginServerPriority_Click);
             // 
             // selectLoginServerExeButton
             // 
@@ -328,6 +333,7 @@
             this.StartLoginServerExeButton.TabIndex = 6;
             this.StartLoginServerExeButton.Text = "Start";
             this.StartLoginServerExeButton.UseVisualStyleBackColor = true;
+            this.StartLoginServerExeButton.Click += new System.EventHandler(this.StartLoginServerExeButton_Click);
             // 
             // LoginLabel
             // 

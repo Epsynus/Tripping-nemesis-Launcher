@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace Tripping_Nemesis_Launcher
 {
@@ -75,7 +76,6 @@ namespace Tripping_Nemesis_Launcher
         {
             if (openCharServerexeDialog.ShowDialog() == DialogResult.OK)
             {
-                //do stuff
                 StartCharServerExeButton.Enabled = true;
                 SetCharServerPriority.Enabled = true;
                 CharLabel.Text = "Server Ready.";
@@ -87,12 +87,89 @@ namespace Tripping_Nemesis_Launcher
         {
             if (openMapServerexeDialog.ShowDialog() == DialogResult.OK)
             {
-                //do stuff
                 StartMapServerExeButton.Enabled = true;
                 SetMapServerPriority.Enabled = true;
                 MapLabel.Text = "Server Ready.";
                 MapGroupBox.Text = "Map Server: " + openMapServerexeDialog.SafeFileName;
             }
         }
+
+        private void StartLoginServerExeButton_Click(object sender, EventArgs e)
+        {
+            // Did you know, This will break and not work? :3
+            // I am quite aware of that by the way so no need to point it out :P
+            //here have a cute picture: https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-ash4/381990_514332065251793_105900295_n.jpg
+            
+            //Experimental start/stop code
+
+            if (StartLoginServerExeButton.Text = "Start")
+            {
+            Process LoginServer = new Process();
+            LoginServer.StartInfo.FileName = openLoginServerexeDialog.FileName;
+                LoginServer.Start();
+            }    
+            for (int i = 0; i < number; i++)
+            {
+                 
+            } 
+            while (LoginCheck == true)
+            {
+                MessageBox.Show("This triggers");
+                StartLoginServerExeButton.Text = "Stop";
+                //LoginServer.CloseMainWindow();
+               // LoginCheck = false;
+            }    
+
+
+            //if (LoginCheck == false)
+            //{
+
+
+            //}    
+            //else if (LoginCheck == true)
+            //{
+
+            //}
+            //End of Experimental start/stop code
+            selectLoginServerExeButton.Enabled = false;
+        }
+
+        private void StartCharServerExeButton_Click(object sender, EventArgs e)
+        {
+            //experimental launch code
+            Process CharServer = new Process();
+            CharServer.StartInfo.FileName = openCharServerexeDialog.FileName;
+            CharServer.Start();
+            //End of experimental launch code
+
+            selectCharServerExeButton.Enabled = false;
+        }
+
+        private void StartMapServerExeButton_Click(object sender, EventArgs e)
+        {
+            //experimental launch code
+            Process MapServer = new Process();
+            MapServer.StartInfo.FileName = openMapServerexeDialog.FileName;
+            MapServer.Start();
+            //End of experimental launch code
+
+            selectMapServerExeButton.Enabled = false;
+        }
+
+        private void SetLoginServerPriority_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SetCharServerPriority_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SetMapServerPriority_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
